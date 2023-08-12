@@ -8,19 +8,22 @@
 	*/
 int main(void)
 {
-	int n=0;
-	if (n < 0)
+	int n;
+
+	srand(time(0));
+	n=rand() - RAND_MAX /2;
+	if (n>0)
 	{
-		printf("negative\n");
+		printf("positive\n");
 	}
-	else if (n == 0)
+	else if (n==0)
 	{
 		printf("zero\n");
 	}
 	else
 	{
-		printf("positive\n");
+		printf("negative\n");
 	}
-
+	
 	return 0;
 }
