@@ -1,4 +1,3 @@
-File Edit Options Buffers Tools C Help
 #include <unistd.h>
 /**
  *_putchar - Will implement the putchar.
