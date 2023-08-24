@@ -1,0 +1,27 @@
+#include "main.h"
+
+/**
+ *_strncat - Combine the strings.
+ *@dest: Destination.
+ *@src:Source.
+ *@n: Number of bytes that can used.
+ *
+ *Return: pointer to the string.
+ */
+char *_strncat(char *dest, char *src, int n)
+{
+	char *ogdest = dest;
+
+	while (*dest!= '\0')
+	{
+		dest++;
+	}
+
+	while (*src != '\0' && n > 0)
+	{
+		*dest = *src;
+		dest++;
+		src++;
+		n--;
+	}
+}
