@@ -1,0 +1,16 @@
+#include "main"
+
+/**
+ *rev_string _ will reverse a string.
+ *@s: Is the character rep the string.
+ *
+ */
+void rev_string(char *s)
+{
+	int s = 0;
+	char temp;
+	char start;
+
+	while (s != '\0')
+	{
+		

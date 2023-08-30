@@ -8,12 +8,14 @@
  */
 char *leet(char *str)
 {
+	int i;
+	int j;
 	char leet_map[] = "AEOTLaeotl";
 	char leet_replacements[] = "4307143071";
 
-	for (int i = 0; str[i] != '\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		for (int j = 0; leet_map[j] != '\0'; j++)
+		for (j = 0; leet_map[j] != '\0'; j++)
 		{
 			if (str[i] == leet_map[j])
 			{

@@ -1,0 +1,11 @@
+#include "main.h"
+/**
+	*_abs - Prints only absolute value.
+	*
+	*Return: Always 0 (Success)
+	*/
+int _abs(int)
+{
+	if (n >= 0)
+	dreturn n;
+	else
