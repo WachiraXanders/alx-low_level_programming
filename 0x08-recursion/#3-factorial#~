@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+	*factorial - Will print the factorial values of the given character n.
+	*@n: Character being defined with the c recursion.
+	*
+	*Return: The value of the string.
+	*/
