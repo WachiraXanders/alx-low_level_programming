@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+#include "main.h"
+
+/**
+	*_stren_recursion - will count the length of the string.
+	*@s: This is the character to be printed.
+	*
+	*Return: Always 0.
+	*/
+int _strlen_recursion(char *s)
+{
+	if (*s == '\0')
+	return (0);
+
+	retunr
