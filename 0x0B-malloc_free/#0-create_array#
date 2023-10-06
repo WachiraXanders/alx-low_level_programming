@@ -1,0 +1,17 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include "main.h"
+/**
+	*create_array - will create an array.
+	*@size: will determine the size of the memory access.
+	*@c: The character or string array to be pritned.
+	*
+	*Return: The value of the array.
+	*/
+char *create_awrray(unsigned int size, char c)
+{
+	if (size == 0)
+	{
+		return(0);
+	}
+	char c
