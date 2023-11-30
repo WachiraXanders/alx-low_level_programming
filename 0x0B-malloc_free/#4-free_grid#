@@ -1,0 +1,11 @@
+#include <stdlib.h>
+/**
+	* alloc_grid - will allocate memory for a 2d grid.
+	* @width: the number of columns in the grid.
+	* @length: the number of rows in the grid.
+	*
+	* Return: According to the neccessity of the code.
+	*/
+int **alloc_grid(int width, int height)
+{
+	int **grid;
