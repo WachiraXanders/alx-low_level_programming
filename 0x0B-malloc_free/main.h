@@ -1,6 +1,7 @@
 #ifndef _MAIN_H
 #define _MAIN_H
 
+char *argstostr(int ac, char **av);
 char *_strdup(char *str);
 char *create_array(unsigned int size, char c);
 char *str_concat(char *s1, char *s2);
