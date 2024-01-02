@@ -1,0 +1,1 @@
+This is the bit manipulation project where we will deal with bit operators such as OR, AND and XOR.
